@@ -36,6 +36,7 @@ baubles.forEach((bauble, i) => {
         alt=""
         class="img-fluid"
         onClick="handleClick(this)"
+        style="cursor: pointer;"
         data-bs-toggle="modal" data-bs-target="#photoModal"
     >
     `;
